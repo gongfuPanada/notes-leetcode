@@ -13,10 +13,8 @@ public class Solution {
         int ans = 0;
         int a, b;
         for (a = b = 0; b < s.length(); b++) {
-            if (idx[s.charAt(b)] >= a) {
-                ans = Math.max(ans, b - a);
-                a = idx[s.charAt(b)] + 1;
-            }
+            ans = Math.max(ans, b - a);
+            a = Math.max(a, idx[s.charAt(b)] + 1);
             idx[s.charAt(b)] = b;
         }
         return Math.max(ans, b - a);

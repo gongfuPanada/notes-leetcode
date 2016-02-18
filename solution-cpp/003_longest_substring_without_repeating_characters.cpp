@@ -14,10 +14,8 @@ public:
         int ans = 0;
         int a, b;
         for (a = b = 0; b < s.length(); b++) {
-            if (idx[s[b]] >= a) {
-                ans = max(ans, b - a);
-                a = idx[s[b]] + 1;
-            }
+            ans = max(ans, b - a);
+            a = max(a, idx[s[b]] + 1);
             idx[s[b]] = b;
         }
         return max(ans, b - a);
