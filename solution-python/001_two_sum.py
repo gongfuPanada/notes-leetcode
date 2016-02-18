@@ -3,7 +3,7 @@
 	@name: li jin
 	@date: Feb 19, 2016
 	@link: https://leetcode.com/problems/two-sum/
-	@time: ms
+	@time: 56 ms
 """
 
 class Solution(object):
@@ -17,5 +17,4 @@ class Solution(object):
         for i, n in enumerate(nums):
             if n in d:
                 return [d[n], i]
-            else:
-                d[target-n] = i
+            d[target - n] = i
