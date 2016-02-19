@@ -12,3 +12,4 @@ Solved Problems
 - [004. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 - [005. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [006. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
+- [007. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
