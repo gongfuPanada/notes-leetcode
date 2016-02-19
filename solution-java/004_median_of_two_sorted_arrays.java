@@ -12,6 +12,7 @@ public class Solution {
         if (n1 == 0) return nums2[s2 + k - 1];
         if (n2 == 0) return nums1[s1 + k - 1];
         if (k == 1) return Integer.min(nums1[s1], nums2[s2]);
+        if (k == n1 + n2) return Integer.max(nums1[s1 + n1 - 1], nums2[s2 + n2 - 1]);
         int r1 = Integer.max(1, (int) 1.0 * k * n1 / (n1 + n2));
         int r2 = k - r1;
         if (nums1[s1 + r1 - 1] == nums2[s2 + r2 - 1])

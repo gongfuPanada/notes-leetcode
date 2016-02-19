@@ -8,13 +8,16 @@
 
 class Solution(object):
     def kth(self, k, nums1, nums2):
-        if not nums1:
+        n1, n2 = len(nums1), len(nums2)
+        if n1 == 0:
             return nums2[k - 1]
-        if not nums2:
+        if n2 == 0:
             return nums1[k - 1]
         if k == 1:
             return min(nums1[0], nums2[0])
-        r1 = max(1, int(1.0 * k * len(nums1) / (len(nums1) + len(nums2))))
+        if k == n1 + n2:
+            return max(nums1[-1], nums2[-1])
+        r1 = max(1, int(1.0 * k * n1 / (n2 + n1)))
         r2 = k - r1
         if nums1[r1 - 1] == nums2[r2 - 1]:
             return nums1[r1 - 1]
