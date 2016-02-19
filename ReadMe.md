@@ -11,3 +11,4 @@ Solved Problems
 - [003. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [004. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 - [005. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [006. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
