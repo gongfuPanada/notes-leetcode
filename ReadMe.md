@@ -15,5 +15,6 @@ Solved problems:
 - [005. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [006. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 - [007. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
-- [008. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-(atoi)/)
+- [008. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 - [009. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+- [010. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
