@@ -19,3 +19,4 @@ Solved problems:
 - [009. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 - [010. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 - [011. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+- [012. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
