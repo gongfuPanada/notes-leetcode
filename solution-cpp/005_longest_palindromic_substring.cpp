@@ -12,19 +12,19 @@ public:
         int n = s.length();
         int beg = 0, len = 1;
         bool pali[n][n];
-        pali[n - 1][n - 1] = true;
+        pali[n-1][n-1] = true;
         for (int i = 0; i < n - 1; i++) {
             pali[i][i] = true;
-            pali[i + 1][i] = true;
+            pali[i+1][i] = true;
         }
         for (int k = 1; k < n; k++) {
             for (int i = 0; i + k < n; i++) {
-                if (pali[i + 1][i + k - 1] && s[i] == s[i + k]) {
-                    pali[i][i + k] = true;
+                if (pali[i+1][i+k-1] && s[i] == s[i+k]) {
+                    pali[i][i+k] = true;
                     len = k + 1;
                     beg = i;
                 } else {
-                    pali[i][i + k] = false;
+                    pali[i][i+k] = false;
                 }
             }
         }

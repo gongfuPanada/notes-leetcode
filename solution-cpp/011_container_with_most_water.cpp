@@ -15,11 +15,11 @@ public:
             int lo = height[i];
             int hi = height[j];
             if (lo < hi) {
-                area = max(area, (j - i) * height[i]);
+                area = max(area, (j-i) * height[i]);
                 while (i < j && height[i] <= lo) i++;
             }
             else {
-                area = max(area, (j - i) * height[j]);
+                area = max(area, (j-i) * height[j]);
                 while (i < j && height[j] <= hi) j--;
             }
         }

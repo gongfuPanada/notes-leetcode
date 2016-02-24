@@ -16,7 +16,7 @@ public class Solution {
             while (j1 < n) {
                 ans[p++] = s.charAt(j1);
                 j1 += delta;
-                if (i % (numRows - 1) == 0) continue;
+                if (i % (numRows-1) == 0) continue;
                 if (j2 < n) ans[p++] = s.charAt(j2);
                 j2 += delta;
             }

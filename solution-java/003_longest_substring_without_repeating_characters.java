@@ -17,6 +17,6 @@ public class Solution {
             a = Math.max(a, idx[s.charAt(b)] + 1);
             idx[s.charAt(b)] = b;
         }
-        return Math.max(ans, b - a);
+        return Math.max(ans, b-a);
     }
 }

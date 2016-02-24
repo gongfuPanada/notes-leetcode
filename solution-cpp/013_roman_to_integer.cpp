@@ -19,7 +19,7 @@ public:
 				roman_map['D'] = 500;
 				roman_map['M'] = 1000;
         for (int i = 0; i < s.size(); i++) {
-            if (i + 1 < s.size() && roman_map[s[i]] < roman_map[s[i + 1]]) result -= roman_map[s[i]];
+            if (i + 1 < s.size() && roman_map[s[i]] < roman_map[s[i+1]]) result -= roman_map[s[i]];
             else result += roman_map[s[i]];
         }
         return result;

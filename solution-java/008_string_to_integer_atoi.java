@@ -20,7 +20,7 @@ public class Solution {
                 if (digit < '0' || digit > '9') break;
                 if(res > 2147483647 || res == 2147483647 && digit > '7')
                     return tag ? Integer.MIN_VALUE : Integer.MAX_VALUE;
-                res = res * 10 + digit - '0';
+                res = res*10 + digit - '0';
             }
         }
         return (int) (tag ? -res : res);

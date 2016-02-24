@@ -11,7 +11,7 @@ public:
     string convert(string s, int numRows) {
         if (numRows == 1) return s;
         string ans = s;
-        int p = 0, n = s.length(), delta = 2 * numRows - 2;
+        int p = 0, n = s.length(), delta = 2*numRows - 2;
         for (int i = 0; i < numRows; i++) {
             int j1 = i, j2 = delta - i;
             while (j1 < n) {

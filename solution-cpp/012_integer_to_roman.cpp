@@ -14,7 +14,7 @@ public:
         string res = "";
         int d = 0;
         while (num) {
-            res = roman_list[d++][num % 10] + res;
+            res = roman_list[d++][num%10] + res;
             num /= 10;
         }
         return res;

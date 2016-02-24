@@ -13,7 +13,7 @@ public class Solution {
         for (int n : nums) {
             if (hmap.containsKey(n))
                 return new int[]{hmap.get(n), i};
-            hmap.put(target - n, i++);
+            hmap.put(target-n, i++);
         }
         return null;
     }

@@ -19,7 +19,7 @@ public:
             while (pos < str.length()) {
                 char digit = str[pos++];
                 if (digit < '0' || digit > '9') break;
-                res = res * 10 + digit - '0';
+                res = res*10 + digit - '0';
                 if (res >= 2147483648)
                     return tag ? -2147483648 : 2147483647;
             }
