@@ -3,7 +3,7 @@
 > Li Jin <br>
 > lijinwithyou@gmail.com <br>
 
-This is my solution to problems of LeetCode OJ, written in `Python, C++, Java`.
+This is my solution to problems of LeetCode OJ, written in `Python` and `C++`.
 
 ----
 
@@ -23,3 +23,5 @@ Solved problems:
 - [013. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 - [014. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 - [015. 3Sum](https://leetcode.com/problems/3sum/)
+- [016. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+- [017. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
