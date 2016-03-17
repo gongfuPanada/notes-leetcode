@@ -35,3 +35,5 @@ Solved problems:
 - [025. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 - [026. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - [027. Remove Element](https://leetcode.com/problems/remove-element/)
+- [028. Implement strStr](https://leetcode.com/problems/implement-strstr/)
+- [029. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
