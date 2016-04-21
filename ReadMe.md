@@ -37,3 +37,5 @@ Solved problems:
 - [027. Remove Element](https://leetcode.com/problems/remove-element/)
 - [028. Implement strStr](https://leetcode.com/problems/implement-strstr/)
 - [029. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+- [030. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
+- [031. Next Permutation](https://leetcode.com/problems/next-permutation/)
