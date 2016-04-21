@@ -39,3 +39,5 @@ Solved problems:
 - [029. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
 - [030. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
 - [031. Next Permutation](https://leetcode.com/problems/next-permutation/)
+- [032. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
+- [033. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
