@@ -41,3 +41,5 @@ Solved problems:
 - [031. Next Permutation](https://leetcode.com/problems/next-permutation/)
 - [032. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
 - [033. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [034. Search for a Range](https://leetcode.com/problems/search-for-a-range/)
+- [035. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
