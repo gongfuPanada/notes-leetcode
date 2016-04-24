@@ -43,3 +43,6 @@ Solved problems:
 - [033. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [034. Search for a Range](https://leetcode.com/problems/search-for-a-range/)
 - [035. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+- [036. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+- [037. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+- [038. Count and Say](https://leetcode.com/problems/count-and-say/)
